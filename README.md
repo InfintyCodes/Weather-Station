@@ -7,6 +7,10 @@ In this project i used Adafruit Huzzah ESP8266 that was connected to DHT11 to Kn
 2. DHT11.
 3. Simulate device "For API".
 
-#The Temperature Sensor:
+# Editors I Used:
+1. Visual Studio 2022.
+2. Arduino IDE.
+
+# The Temperature Sensor:
 For The Real sensor i wrote the code in Arduino IDE.
-I connect the ESP8266 to the internet using WIFI library in Arduino IDE For the ESP8266 "#include <ESP8266WiFi.h>" 
+I connect the ESP8266 to the internet using WIFI library in Arduino IDE For the ESP8266 "#include <ESP8266WiFi.h>" then i connected it to Azure IOTHUB using the Connection String for a Device i already created in my IOTHUB and the messages were sending using MQTT-Protocol when the temperature changes 
