@@ -38,6 +38,7 @@ Here is a pictures from the simulate device and generated a SAS Token key after 
 then i set Device auth token and MQTT topic, after that all i picked up these properties: 
 ![image](https://user-images.githubusercontent.com/70653989/146555742-02cb8557-44a0-49af-a19a-16936b7bc408.png)
 
+after i run the code i got these:
 
 ![image](https://user-images.githubusercontent.com/70653989/146546274-5bb72a5d-c37c-4ff7-affd-e0eb86a03e01.png)
 ![image](https://user-images.githubusercontent.com/70653989/146547104-0925f2dd-aaa9-471f-8550-8b2a6f06bcde.png)
