@@ -22,7 +22,8 @@ sending using MQTT-Protocol when the temperature changes
 To Check The device code click on this link:
 https://github.com/InfintyCodes/ESP8266Device
 
-Here is a build from YR.no
+Here is a picture from YR.no 
+
 ![image](https://user-images.githubusercontent.com/70653989/146546274-5bb72a5d-c37c-4ff7-affd-e0eb86a03e01.png)
 
 To Check The device code click on this link:
