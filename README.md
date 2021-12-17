@@ -21,6 +21,10 @@ sending using MQTT-Protocol when the temperature changes
 ![image](https://user-images.githubusercontent.com/70653989/146536512-7f6a49d5-da41-48f0-b6ce-31056db11f44.png)
 To Check The device code click on this link:
 https://github.com/InfintyCodes/ESP8266Device
+Here is a build from YR.no
+![image](https://user-images.githubusercontent.com/70653989/146546274-5bb72a5d-c37c-4ff7-affd-e0eb86a03e01.png)
+To Check The device code click on this link:
+https://github.com/InfintyCodes/Simulate-Device
 
 # DataBase:
 For this part i used SQL DataBase so i sent all the messages that were sent to My Azure IOTHUB to An SQL DataBase i created 
@@ -29,7 +33,8 @@ In this part i used an Azure Function i wrote in visual studio 2022 and this fun
 EventhubTrigger that's connected by IotHub-Primary-ConnectionString to MySQL-DataBase-ConnectionString
 
 ![image](https://user-images.githubusercontent.com/70653989/146514068-9e0bb011-124b-411d-9bbc-f4212f6f5d38.png)
-
+![image](https://user-images.githubusercontent.com/70653989/146546761-cde43384-e0db-43b5-8215-c2fabe95c7ed.png)
+![image](https://user-images.githubusercontent.com/70653989/146546788-a8cc41cb-d765-4c85-9a34-8da43301c20a.png)
 To Check The device code click on this link:
 https://github.com/InfintyCodes/SkickaMessagesToSqlDataBase
 
