@@ -22,10 +22,13 @@ sending using MQTT-Protocol when the temperature changes
 To Check The device code click on this link:
 https://github.com/InfintyCodes/ESP8266Device
 
-Here is a picture from YR.no 
+# The Simulate Sensor:
+In this part i used a simulate device to collect temperature from an Api for my area using latitude and longatude 
+Here is a pictures from the simulate device: 
 
 ![image](https://user-images.githubusercontent.com/70653989/146546274-5bb72a5d-c37c-4ff7-affd-e0eb86a03e01.png)
 ![image](https://user-images.githubusercontent.com/70653989/146547104-0925f2dd-aaa9-471f-8550-8b2a6f06bcde.png)
+![image](https://user-images.githubusercontent.com/70653989/146547451-ba3616d7-785f-4042-8f88-073164ae3ff7.png)
 
 To Check The device code click on this link:
 https://github.com/InfintyCodes/Simulate-Device
@@ -33,7 +36,11 @@ https://github.com/InfintyCodes/Simulate-Device
 # DataBase:
 For this part i used SQL DataBase so i sent all the messages that were sent to My Azure IOTHUB to An SQL DataBase i created 
 to save them there and use them for different purposes so in the future like(PowerBI, WebSite, ETC...).
+![image](https://user-images.githubusercontent.com/70653989/146547608-2130a846-e436-428c-9405-f85e03b5b52f.png)
+
 In this part i used an Azure Function i wrote in visual studio 2022 and this function saves data in SQL Queery by using an 
+![image](https://user-images.githubusercontent.com/70653989/146547659-0851fbe6-3616-4bbd-985e-0ec0373149b0.png)
+
 EventhubTrigger that's connected by IotHub-Primary-ConnectionString to MySQL-DataBase-ConnectionString
 
 ![image](https://user-images.githubusercontent.com/70653989/146514068-9e0bb011-124b-411d-9bbc-f4212f6f5d38.png)
