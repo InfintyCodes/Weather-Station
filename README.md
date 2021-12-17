@@ -15,6 +15,13 @@ and i did the same for my house to save energi that the heater burn by know the 
 
 # The Temperature Sensor:
 For The Real sensor i wrote the code in Arduino IDE.
+Library i used 
+1. AzureIotHub v1.0.45
+2. AzureIoTProtocol_MQTT v1.0.45
+3. AzureIoTUtility v1.0.45
+4. Dht11 library
+5. ArduinoJson v5.13.5
+
 I connect the ESP8266 to the internet using WIFI library in Arduino IDE For the ESP8266 "#include <ESP8266WiFi.h>" then i 
 connected it to Azure IOTHUB using the Connection String for a Device i already created in my IOTHUB and the messages were 
 sending using MQTT-Protocol when the temperature changes 
@@ -27,12 +34,16 @@ https://github.com/InfintyCodes/ESP8266Device
 
 # The Simulate Sensor:
 In this part i used a simulate device to collect temperature from an Api for my area using latitude and longatude 
-Here is a pictures from the simulate device: 
+Here is a pictures from the simulate device and generated a SAS Token key after it i Set the IP of my MQTT broker 
+then i set Device auth token and MQTT topic, after that all i picked up these properties: 
+![image](https://user-images.githubusercontent.com/70653989/146555742-02cb8557-44a0-49af-a19a-16936b7bc408.png)
+
 
 ![image](https://user-images.githubusercontent.com/70653989/146546274-5bb72a5d-c37c-4ff7-affd-e0eb86a03e01.png)
 ![image](https://user-images.githubusercontent.com/70653989/146547104-0925f2dd-aaa9-471f-8550-8b2a6f06bcde.png)
 ![image](https://user-images.githubusercontent.com/70653989/146547451-ba3616d7-785f-4042-8f88-073164ae3ff7.png)
 ![image](https://user-images.githubusercontent.com/70653989/146551900-cf5331dd-0e58-4107-be28-a3936f05892c.png)
+![image](https://user-images.githubusercontent.com/70653989/146555305-b4a32582-7d42-487c-81ea-747f77931458.png)
 
 To Check The device code click on this link:
 https://github.com/InfintyCodes/Simulate-Device
