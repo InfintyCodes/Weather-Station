@@ -29,6 +29,7 @@ In this part i used an Azure Function i wrote in visual studio 2022 and this fun
 EventhubTrigger that's connected by IotHub-Primary-ConnectionString to MySQL-DataBase-ConnectionString
 
 ![image](https://user-images.githubusercontent.com/70653989/146514068-9e0bb011-124b-411d-9bbc-f4212f6f5d38.png)
+
 To Check The device code click on this link:
 https://github.com/InfintyCodes/SkickaMessagesToSqlDataBase
 
