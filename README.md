@@ -47,8 +47,8 @@ In this part i used an Azure Function i wrote in visual studio 2022 and this fun
 EventhubTrigger that's connected by IotHub-Primary-ConnectionString to MySQL-DataBase-ConnectionString
 and here i visualize data in Power BI:
 ![image](https://user-images.githubusercontent.com/70653989/146514068-9e0bb011-124b-411d-9bbc-f4212f6f5d38.png)
-![image](https://user-images.githubusercontent.com/70653989/146546761-cde43384-e0db-43b5-8215-c2fabe95c7ed.png)
-![image](https://user-images.githubusercontent.com/70653989/146546788-a8cc41cb-d765-4c85-9a34-8da43301c20a.png)
+![image](https://user-images.githubusercontent.com/70653989/146551149-3a20ea6a-7e6b-4de4-b8d7-7a6dccb83645.png)
+
 To Check The device code click on this link:
 https://github.com/InfintyCodes/SkickaMessagesToSqlDataBase
 
