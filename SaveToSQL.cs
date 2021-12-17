@@ -2,15 +2,14 @@ using IoTHubTrigger = Microsoft.Azure.WebJobs.EventHubTriggerAttribute;
 
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
-using Microsoft.Azure.EventHubs;
 using System.Text;
 using System.Net.Http;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Data.SqlClient;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
+using System.Data.SqlClient;
 using SaveToSqlDB.Models;
+using System;
+using Azure.Messaging.EventHubs;
 
 namespace SendDataToSqlDataBase
 {
@@ -20,8 +19,8 @@ namespace SendDataToSqlDataBase
         [FunctionName("SaveDataToSqlDataBase")]
         public static void Run([IoTHubTrigger("messages/events", Connection = "IOTHUB-2021")]EventData message, ILogger log)
         {
-            log.LogInformation($"Message: {Encoding.UTF8.GetString(message.Body.Array)}");
-            var msg = JsonConvert.DeserializeObject<DhtMeasurment>(Encoding.UTF8.GetString(message.Body.Array));
+            log.LogInformation($"Message: {Encoding.UTF8.GetString(message.EventBody.ToArray())}");
+            var msg = JsonConvert.DeserializeObject<DhtMeasurment>(Encoding.UTF8.GetString(message.EventBody.ToArray()));
             using (var conn = new SqlConnection(Environment.GetEnvironmentVariable("SqlConnection"))){
                 conn.Open();
                 using (var cmd = new SqlCommand("", conn)){
