@@ -45,6 +45,7 @@ after i run the code i got these:
 ![image](https://user-images.githubusercontent.com/70653989/146547451-ba3616d7-785f-4042-8f88-073164ae3ff7.png)
 ![image](https://user-images.githubusercontent.com/70653989/146551900-cf5331dd-0e58-4107-be28-a3936f05892c.png)
 ![image](https://user-images.githubusercontent.com/70653989/146555305-b4a32582-7d42-487c-81ea-747f77931458.png)
+![image](https://user-images.githubusercontent.com/70653989/146558820-e027e5a3-110b-489e-b359-366be8b035cb.png)
 
 To Check The device code click on this link:
 https://github.com/InfintyCodes/Simulate-Device
