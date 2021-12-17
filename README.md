@@ -44,6 +44,7 @@ to save them there and use them for different purposes so in the future like(Pow
 
 In this part i used an Azure Function i wrote in visual studio 2022 and this function saves data in SQL Queery by using an 
 ![image](https://user-images.githubusercontent.com/70653989/146547659-0851fbe6-3616-4bbd-985e-0ec0373149b0.png)
+
 ![image](https://user-images.githubusercontent.com/70653989/146553112-48436343-0273-45bc-9e10-2af448afa77b.png)
 
 EventhubTrigger that's connected by IotHub-Primary-ConnectionString to MySQL-DataBase-ConnectionString
