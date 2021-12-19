@@ -3,6 +3,7 @@
 In this project i used Adafruit Huzzah ESP8266 that was connected to DHT11 to Know the temperature in my Garage and compare it 
 with the temperature from an API for the area that i am living in to turn on the engine heater so i can save time 
 and i did the same for my house to save energi that the heater burn by know the right temperature second by second.
+
 ![image](https://user-images.githubusercontent.com/70653989/146690090-bf9a5038-ff5b-4d02-8c80-f6ead88905b3.png)
 
 
