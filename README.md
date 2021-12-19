@@ -66,6 +66,7 @@ to save them there and use them for different purposes so in the future like(Pow
 
 ![image](https://user-images.githubusercontent.com/70653989/146547608-2130a846-e436-428c-9405-f85e03b5b52f.png)
 
+# Azure Function + Visualization:
 In this part i used an Azure Function i wrote in visual studio 2022 and this function saves data in SQL Queery by using an 
 EventhubTrigger that's connected by IotHub-Primary-ConnectionString to MySQL-DataBase-ConnectionString
 and here i visualize data in Power BI:
