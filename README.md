@@ -15,6 +15,10 @@ and i did the same for my house to save energi that the heater burn by know the 
 # Editors I Used:
 1. Visual Studio 2022.
 2. Arduino IDE.
+3. Azure Portal.
+4. https://app.diagrams.net/
+5. IntelliJ IDEA 2021.
+6. Power BI.
 
 # The Temperature Sensor:
 For The Real sensor i wrote the code in Arduino IDE.
